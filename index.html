@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="soundbuttonGre" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+    <audio id="soundbuttonRed" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+    <audio id="soundbuttonYel" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+    <audio id="soundbuttonBlu" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+     <div class="container">
+        <div class="center">
+            <div class="buttons">
+                <div id="red"></div>
+                <div id="green"></div>
+                <div id="blue"></div>
+                <div id="yellow"></div>
+            </div>
+            <div class="middle">
+                <div class="simon">
+                    <div id="heading">
+                        <h2 id="simon">SIMON</h2>
+                    </div>
+                    <div id="count">
+                        <button id="countbtn">_ _</button>
+                        <p>count</p>
+                    </div>
+                    <div class="start">
+                        <button id="startbtn"></button>
+                        <p>Start</p>
+                    </div>
+                    <div class="mainButton">
+                        <span>On</span>
+                        <div id="powerSwitch">
+                        <div id="on"></div>
+                        <div id="off"></div>
+                    </div>
+                        <span>Off</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

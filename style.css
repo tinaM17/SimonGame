@@ -1,0 +1,266 @@
+body {
+    background-image: url('http://braccousa.com/wp-content/uploads/2013/07/Dark-wooden-website-background.jpg');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.center {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #908c8a;
+}
+.buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+#red {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top:200px;
+    left: 40px;
+    border-radius: 0 0 0 100%;
+    margin-top: 20px;
+}
+
+#green {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    top:30px;
+    left: 40px;
+    border-radius: 100% 0 0 0;
+    margin-bottom: 20px;
+}
+
+#blue {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+    top:200px;
+    left: 210px;
+    border-radius: 0 0 100% 0;
+    margin-top: 20px;
+}
+
+#yellow {
+    width: 150px;
+    height: 150px;
+    background-color: goldenrod;
+    position: absolute;
+    top:30px;
+    left: 210px;
+    border-radius: 0 100% 0 0;
+    margin-bottom: 20px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #908c8a;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    left: 620px;
+}
+
+.simon {
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#simon {
+    text-align: center;
+}
+
+#count {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#countbtn {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(224, 95, 95);
+}
+p {
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.start {
+    margin-top: -60px;
+    margin-left: 120px;
+}
+
+#startbtn {
+    background-color: red;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.mainButton {
+    text-align: center;
+    display: flex;
+    margin-left: 40px;
+}
+
+#powerSwitch {
+    width: 40px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #908c8a;
+    display: flex;
+}
+
+#on {
+    width: 20px;
+    height: 15px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+#off {
+    background-color: blue;
+    width: 20px;
+    height: 15px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+@media screen and (max-width:430px) {
+
+    .container {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .center {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: #908c8a;
+    }
+    
+    #red {
+        width: 100px;
+        height: 100px;
+        top:150px;
+        left: 30px;
+        margin-top: 10px;
+    }
+    
+    #green {
+        width: 100px;
+        height: 100px;
+        top:40px;
+        left: 30px;
+        margin-bottom: 10px;
+    }
+    
+    #blue {
+        width: 100px;
+        height: 100px;
+        top:140px;
+        left: 170px;
+        margin-top: 20px;
+    }
+    
+    #yellow {
+        width: 100px;
+        height: 100px;
+        top:40px;
+        left: 170px;
+        margin-bottom: 20px;
+    }
+    
+    .middle {
+        width: 140px;
+        height: 140px;
+        margin: auto;
+        top: 90px;
+        left: 140px;
+    }
+    
+    .simon {
+        width: 120px;
+        height: 120px;
+    }
+    
+    #simon {
+        font-size: small;
+    }
+    
+    #count {
+        margin-left: -45px;
+        margin-top: 0px;
+    }
+    
+    #countbtn {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    p {
+        margin-top: 0;
+        margin-left: 0px;
+        font-size: small;
+    }
+    
+    .start {
+        margin-top: -55px;
+        margin-left: 50px;
+    }
+    
+    #startbtn {
+        padding: 10px;
+    }
+    
+    .mainButton {
+        margin-left: 3px;
+        position: absolute;
+        top:90px;
+        margin-left: 20px;
+    }
+    
+    #powerSwitch {
+        width: 30px;
+        height: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    #on {
+        width: 15px;
+        height: 10px;
+        margin-top: 2px;
+        margin-left: 2px;
+    }
+    #off {
+        background-color: blue;
+        width: 15px;
+        height: 8px;
+        margin-top: 2px;
+        margin-right: 2px;
+    }
+      
+    
+}
