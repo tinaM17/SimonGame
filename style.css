@@ -250,7 +250,7 @@ p {
     
     #on {
         width: 15px;
-        height: 10px;
+        height: 8px;
         margin-top: 2px;
         margin-left: 2px;
     }
@@ -264,3 +264,123 @@ p {
       
     
 }
+
+@media screen and (max-width:360px) {
+
+    .container {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .center {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: #908c8a;
+    }
+    
+    #red {
+        width: 100px;
+        height: 100px;
+        top:150px;
+        left: 30px;
+        margin-top: 10px;
+    }
+    
+    #green {
+        width: 100px;
+        height: 100px;
+        top:40px;
+        left: 30px;
+        margin-bottom: 10px;
+    }
+    
+    #blue {
+        width: 100px;
+        height: 100px;
+        top:140px;
+        left: 170px;
+        margin-top: 20px;
+    }
+    
+    #yellow {
+        width: 100px;
+        height: 100px;
+        top:40px;
+        left: 170px;
+        margin-bottom: 20px;
+    }
+    
+    .middle {
+        width: 140px;
+        height: 140px;
+        margin: auto;
+        top: 90px;
+        left: 110px;
+    }
+    
+    .simon {
+        width: 120px;
+        height: 120px;
+    }
+    
+    #simon {
+        font-size: small;
+    }
+    
+    #count {
+        margin-left: -45px;
+        margin-top: 0px;
+    }
+    
+    #countbtn {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    p {
+        margin-top: 0;
+        margin-left: 0px;
+        font-size: small;
+    }
+    
+    .start {
+        margin-top: -55px;
+        margin-left: 50px;
+    }
+    
+    #startbtn {
+        padding: 10px;
+    }
+    
+    .mainButton {
+        margin-left: 3px;
+        position: absolute;
+        top:90px;
+        margin-left: 20px;
+    }
+    
+    #powerSwitch {
+        width: 30px;
+        height: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    #on {
+        width: 15px;
+        height: 8px;
+        margin-top: 2px;
+        margin-left: 2px;
+    }
+    #off {
+        background-color: blue;
+        width: 15px;
+        height: 8px;
+        margin-top: 2px;
+        margin-right: 2px;
+    }
+      
+    
+}
+
