@@ -5,7 +5,7 @@ Welcome to the Simon Game repository! This is a digital version of the classic S
 ## How to Play
 
 1. **Start the Game:** Open the `index.html` file in a web browser to start the game.
-2. ** Deployed link:-** https://tinam17.github.io/SimonGame/
+2. **Deployed link:-** https://tinam17.github.io/SimonGame/
 
 3. **Game Rules:**
    - The game will display a sequence of colors.
